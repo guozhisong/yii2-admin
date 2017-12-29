@@ -1,0 +1,27 @@
+body{margin:0 auto;padding:0;}
+ul,li{list-style: none;margin: 0;padding: 0;} 
+a,span{text-decoration:none;margin: 0;padding: 0;}
+.big_header{background: #3ba354;width: 100%;min-width: 1190px;height: 34px;border-bottom: 1px solid #dddddd;}
+.header{width: 1190px;margin: 0 auto;}
+.header_l{float: left;height: 34px;}
+.header_l a{line-height: 34px;font-size: 12px;font-family: "宋体";color: #ffffff;margin-right: 30px;}
+.header_r{float: right;}
+.header_r a{line-height: 34px;font-size: 12px;font-family: "宋体";color: #ffffff;}
+.header_r a:hover{text-decoration: underline;}
+.header_r span{line-height: 34px;font-size: 12px;font-family: "宋体";color: #76bf88;}
+
+.header_r .select{display: inline-block;*zoom: 1;*display:inline;position: relative;z-index: 99;}
+.header_r .select_show{background: url(../img/wodejianli/xiala.png) no-repeat right center;padding-right: 22px;text-decoration:none !important;}
+.header_r .select_hide{position: absolute;right: 0;top: 34px;width: 70px;height: 96px;display:none;}
+.header_r .select_hide li{float: left; width: 70px; height: 32px;background: #3ba354;cursor: pointer;}
+.header_r .select_hide li:hover{background: #288e40;}
+.header_r .select_hide li a{width:70px; line-height: 32px !important;text-decoration:none !important; display:block; padding-left: 15px;}
+.big_nav{background: #ffffff;width: 100%;min-width: 1190px;height: 70px;background: url(../image/nav_bg.png) repeat-x left bottom;}
+.nav{width: 1190px;margin: 0 auto;height: 65px;}
+.nav_logo{float: left;margin-top: 13px;width: 158px;height: 40px;}
+.nav_a{float: left;margin-left: 190px;}
+.nav_a a{float: left;padding: 0 10px;padding-bottom: 3px;margin-right: 35px;color: #999999;font-size: 18px;font-family: "微软雅黑";line-height: 62px;}
+.check_nav_a{color: #333333;padding-bottom: 0;border-bottom: 3px solid #3ba354;}
+.no_check_nav_a:hover{color: #333333;padding-bottom: 0;border-bottom: 3px solid #3ba354;}
+.nav_a a.in{color: #333333;padding-bottom: 0;border-bottom: 3px solid #3ba354;}
+.nav_a .new{float: left;margin-left: -36px;margin-top: 15px;}

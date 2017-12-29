@@ -1,0 +1,102 @@
+/*DialogBox*/
+.PLG-dialogBox-modal {
+	display: none;
+	position: fixed;
+	opacity: 0.5;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 99;
+	background-color: #000;
+	filter: alpha(opacity=40);
+}
+.PLG-dialogBox-wrapper {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	margin: 0px auto;
+	z-index: 999;
+}
+.PLG-dialogBox-container {
+	width: 862px;
+	height: auto;
+	margin: 50px auto 0px;
+	border: 3px solid #999999;
+	background-color: #FFF;
+}
+.PLG-dialogBox-title-wrapper {
+	width: 100%;
+	height: 33px;
+	background-color: #f0f0f0;
+}
+.PLG-dialogBox-title {
+	width: 150px;
+	float: left;
+	font-size: 14px;
+	color: #343434;
+	margin-left: 15px;
+	line-height: 33px;
+	font-family: "微软雅黑";
+}
+.PLG-dialogBox-content {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.PLG-dialogBox-footer {
+	width: 100%;
+	height: 50px;
+	background-color: #f0f0f0;
+}
+.PLG-dialogBox-footer-btn-wrapper {
+	width: 130px;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+.PLG-dialogBox-btn-ok {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFF;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #3BA354;
+}
+.PLG-dialogBox-btn-cancel {
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	color: #3ba354;
+	margin-left: 18px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+	border: 1px solid #3ba354;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #FFF;
+}
+.PLG-dialogBox-btn-ok span, .PLG-dialogBox-btn-cancel span {
+	margin: 10px;
+	font-weight: bold;
+}
+.PLG-dialogBox-btn-close {
+	width: 13px;
+	height: 13px;
+	float: right;
+	display: block;
+	margin: 10px;
+	cursor: pointer;
+	background-image: url(/static/frontend/img/sousuo/guanbi.jpg);
+}
+.PLG-dialogBox-btn-disabled {
+	background: #3ba354;
+}

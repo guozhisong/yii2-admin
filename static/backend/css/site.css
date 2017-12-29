@@ -1,0 +1,156 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/*笑看风云旦 自定义后台样式开始*/
+.container .row{padding:15px;}
+.main {padding: 10px 10px 0px 10px;width: auto;overflow: auto;}
+#search input{display:inline-block;border: 1px solid #CCC;padding: 3px;border-top-color: #666;border-left-color: #666;background-color: #F6F6F6;line-height: 26px;height:26px;width: 150px;}
+#search select{display:inline-block;width: 150px;background-color: #f6f6f6;cursor: pointer;height: 28px;line-height: 28px;padding: 4px;}
+.oper, .infoadd, .info dl, .switchs {width: 100%;}
+.oper {margin-bottom: 10px;height: 25px;}
+.oper a {float: left;width: 80px;line-height: 25px;text-align: center;background: url(../img/pic.gif) no-repeat;color: #FFF;margin-right: 10px;}
+.oper a:hover {background: url(../img/pic.gif) 0 -25px;text-decoration: none;}
+.switchs {float: left;background: url(../img/lin.gif) 0 -100px;height: 31px;}
+.switchs li{list-style:none;}
+.switchs li, .switchs a {float: left;line-height: 30px;background-color: #FFF;padding: 0 15px;border: 1px solid #D4D4D4;border-bottom: 0;margin-left: 20px;font-weight: bold;cursor: pointer;}
+.switchs li.c, .switchs a.c {background: url(../img/lin.gif) 0 -38px;color: #FFF;border: 0;}
+.switchs a, .switchs a:hover {color: #555;}
+.switchs a.c, .switchs a.c:hover {color: #FFF;}
+.tablist,tablist1{table-layout: fixed;}
+.tablist, .tablist td, .tablist1, .tablist1 td {border: 1px solid #E1E1E1;}
+.tablist, .tablist th, .tablist1, .tablist1 th {border: 1px solid #E1E1E1;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.tablist1 td {border-top: 0;border-left: 0;padding: 5px;}
+.tablist1 label {font-weight: bold;}
+.tablist, .tablist1 {border-bottom: 0;border-right: 0;}
+.tablist td {border-top: 0;border-left: 0;padding: 8px;text-align: center;}
+.tablist tr, .tablist1 tr {background-color: #FFF;}
+.tablist tr:hover, .tablist1 tr:hover {background-color: #FEF8E0;}
+.tablist .tdleft {text-align: left;}
+.tablist .trbg {background: url(../img/lin.gif);font-weight: bold;color: #666}
+.tablist .trbg td,.tablist .trbg th {padding: 0;line-height: 27px;height:27px;text-align:center;}
+.tablabel, .tablabel td {border: 1px solid #E1E1E1;}
+.tablabel {border-bottom: 0;border-right: 0;}
+.tablabel td {border-top: 0;border-left: 0;padding: 2px;padding-left: 10px;}
+.tablabel tr {background-color: #FFF;}
+.tablabel tr:hover {background-color: #FEF8E0;}
+.tabmsg {border: 5px solid #9CC0E9;background-color: #F4F8FB;text-align: center;line-height: 20px;color: #476DD1;}
+.tabmsg .t {font-size: 14px;padding-top: 15px;font-weight: bold;}
+.tabmsg .c {text-align: left;padding: 5px 15px;}
+.tabmsg .g {margin: 15px;}
+.tabmsg .g a {padding: 8px 20px;line-height: 30px;border: 1px solid #4672C4;border-top: #9CC0E9;border-left: #9CC0E9;background-color: #3D6AD3;color: #FFF;margin-right: 20px;}
+.tabmsg .g a:hover {background-color: #5588D8;text-decoration: none;}
+.tabmsg .z {padding-bottom: 15px;font-family: Verdana, Geneva, sans-serif;}
+.tabmsg .z a {text-decoration: underline;}
+.classp {font-weight: bold;background-color: #CCC}
+.classico1, .classico2 {float: left;background: url(../img/pic.gif) no-repeat;width: 15px;height: 15px;cursor: pointer;}
+.classico1 {background-position: 0 -81px;}
+.classico2 {background-position: -20px -81px;}
+
+.info {margin-top: 10px;}
+.info dl {float: left;border-bottom: 1px solid #E8E8E8;padding: 10px 0;_margin-right: -3px;}
+.info dl.bt0{border-bottom: 0;}
+.info dl dt {float: left;width: 110px;text-align: right;line-height: 26px;font-weight: bold;}
+.info dl dd {float: left;padding-left: 10px;}
+.info dl dd.t span {color: #C00;}
+.info dl dd.t {color: #888;/*padding-left: 17px;background: url(../img/pic.gif) -138px 8px no-repeat;margin-left: 10px;*/}
+
+.info input[type=text]{border: 1px solid #CCC;padding: 3px;border-top-color: #666;border-left-color: #666;background-color: #F6F6F6;line-height: 26px;height:26px;width: 208px;	}
+
+.info .int {border: 1px solid #CCC;padding: 3px;border-top-color: #666;border-left-color: #666;background-color: #F6F6F6;line-height: 16px;height:16px;width: 200px;}
+.info button, input, optgroup, select, textarea {border: 1px solid #ccc;}
+.info select {background-color: #F6F6F6;padding: 4px;min-width:208px;cursor:pointer;height:28px;line-height:28px;}
+.info .int:hover {border: 1px solid #5EA2D9;background-color: #EDF3F8;}
+.btnmini, .btnbig {border: 1px solid #999;overflow: hidden;border-top: #E0E0E0;border-left: #E0E0E0;background-color: #E0E0E0;font-weight: bold;color: #555;}
+.btnmini {padding: 0 5px;line-height: 17px;height: 21px;}
+.btnbig {padding: 5px 10px;font-size: 14px;height: 30px;margin-top: 5px;cursor: pointer;}
+.pages {padding-left:0px;}
+/*笑看风云旦 自定义后台样式结束*/

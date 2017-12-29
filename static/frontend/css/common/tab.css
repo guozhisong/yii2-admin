@@ -1,0 +1,44 @@
+.PLG-tab-title-wrap {
+	display: inline-block;
+	*display:inline;
+	zoom:1;
+	width: 100%;
+	margin: 12px 0;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.PLG-tabs-title {
+	position: relative;
+	float: left;
+	height: 30px;
+	margin-left:5px;
+	padding: 0 10px;
+	line-height: 30px;
+	border: 1px solid #d9d9d9;
+	color: #333333;
+	background-color: #fff;
+	font-size: 12px;
+	text-indent: 8px;
+	border-bottom: none !important;
+	cursor: pointer;
+}
+
+.PLG-tabs-title span {
+	float: left;
+}
+.PLG-tabs-title div {
+	float: left;
+	width: 13px;
+	height: 100%;
+	margin-left: 10px;
+	background-image: url(/static/frontend/img/sousuo/xia.png);
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+}
+.PLG-tabs-title-active {
+	top: 1px;
+}
+
+.PLG-tab-container {
+	width: 100%;
+}

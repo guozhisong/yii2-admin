@@ -1,0 +1,51 @@
+.PLG-sel-wrapper {
+	cursor: pointer;
+}
+.PLG-sel-tab {
+	
+}
+.PLG-sel-header-wrapper {
+	display: inline-block;
+	*display:inline;
+	zoom:1;
+	width: 100%;
+}
+.PLG-sel-maxlength {
+	display: inline-block;
+	*display:inline;
+	zoom:1;
+	float: left;
+	height: 30px;
+    line-height: 30px;
+	margin-top: 12px;
+    margin-left: 20px;
+    color: #9a9aa4;
+    font-size: 12px;
+}
+
+.PLG-sel-selected {
+	display: inline-block;
+	*display:inline;
+	zoom:1;
+	float: left;
+	margin: 12px 0 0 20px;
+}
+
+.PLG-sel-warning {
+	display: none;
+	float: right;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin: 12px 20px 0 0;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	background-color: #F00;
+}
+
+.PLG-sel-list {
+	float: left;
+	margin-left: 10px;
+}
+

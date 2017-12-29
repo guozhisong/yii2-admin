@@ -1,0 +1,57 @@
+/* icons*/
+.PLG-icon-triangle-1-s {
+	background-image: url(/static/frontend/img/PLG/triangle-1-s.png);
+	width: 11px;
+	height: 7px;
+}
+
+/* dropmenu */
+.PLG-dropmenu-button {
+	float: left;
+	width: 500px;
+	height: 38px;
+	line-height: 38px;
+	cursor: pointer;
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+.PLG-dropmenu-button-text {
+	float: left;
+	padding-left: 10px;
+	color: #c5c5c5;
+	font-size: 16px;
+}
+.PLG-dropmenu-button-text.PLG-dropmenu-selected {
+	color: #000;
+}
+.PLG-dropmenu-button-icon {
+	float: right;
+	width: 38px;
+	height: 100%;
+	border-left: 1px solid #cccccc;
+	background-color: #ebebeb;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.PLG-dropmenu-menu {
+	position: absolute;
+	z-index: 2;
+	width: 500px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+.PLG-dropmenu-menu-item {
+	height: 38px;
+    line-height: 38px;
+    padding-left: 10px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.PLG-dropmenu-button.PLG-dropmenu-active {
+	border-color: #3ba354;
+}
+.PLG-dropmenu-menu-item.PLG-dropmenu-active {
+	background-color: #3ba354;
+	font-weight: bold;
+	color: #fff;
+}

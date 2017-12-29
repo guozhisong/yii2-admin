@@ -1,0 +1,81 @@
+body {
+	/*overflow-x: hidden;*/
+}
+/*下拉菜单*/
+.xial_box {
+	z-index: 2;
+}
+/*textarea*/
+.hinfght_texa {
+	overflow: auto;
+}
+.content3_r_11 .xinxi_02 {
+	display: inline-block !important;
+	*display:inline;
+	zoom:1;
+}
+.content3_r_11 .xinxi_02 I {
+	float: none !important;
+}
+.content3_r_11 .xinxi_02 span {
+	float: none !important;
+}
+.content3_r_12 .jianjie {
+	overflow-y: hidden !important;
+}
+.content3_r_11 .xinxi_02 {
+	height: auto !important;
+}
+.liete_yye {
+	width: 250px !important;
+}
+
+.gs_01, .ejej, .zdee_i {
+	height: 16px !important;
+	line-height: 16px !important;
+}
+.content_r .zxzw_fen_01 b i {
+	height: 20px !important;
+	line-height: 20px !important;
+}
+
+.denglu_content .jizhu {
+	position:relative;
+	width: 350px !important;
+}
+.denglu_content .jizhu a {
+	position: absolute;
+	right: 0;
+}
+/* 首页轮播 */
+.active a {
+	color: #fff !important;
+	font-weight: bold;
+}
+.tsebaf .js-jobLoc-allLoc {
+	line-height: 18px;
+}
+.tsebaf .cj-jobLoc-item-wrap {
+	line-height: 18px;
+}
+.tsebaf .cj-jobLoc-item {
+	line-height: 18px;
+}
+.left_qxsx_box1 {
+	padding-left: 59px;
+	padding-right: 59px;
+	border-right: 1px dotted #666;
+}
+.left_qxsx_box2 {
+	padding-left: 59px;
+	padding-right: 59px;
+	border-right: 1px dotted #666;
+}
+.left_qxsx_box3 {
+	margin-left: 59px;
+}
+.telse_xuane th {
+	font-weight: normal;
+	text-align: left;
+	padding-left: 30px;
+}

@@ -1,0 +1,77 @@
+.st-content-button {
+	float: left;
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+	margin: 9px 0 0 57px;
+    text-align: center;
+    color: #3ba354;
+    cursor: pointer;
+    border: 1px solid #caeacf;
+    background: #dafcdf;
+}
+
+#js-vfEmail-dialog .PLG-dialogBox-container {
+	width: 500px;
+}
+
+#js-vfEmail-dialog .PLG-dialogBox-btn-ok {
+	width: 130px;
+}
+
+.st-dialog-container {
+	width: 450px;
+    margin: 0 auto;
+	padding-top: 20px;
+}
+
+.st-dialog-content {
+}
+
+.st-vfEmail-label {
+	float: left;
+    width: 150px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+    color: #626262;
+}
+
+.st-vfEmail-detail {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 20px;
+	font-weight: bold;
+}
+.st-vfEmail-warning {
+    display: block;
+    width: 310px;
+	height: 36px;
+	line-height: 36px;
+	margin: 10px auto 10px;
+	text-align: center;
+	color: #3ba354;
+}
+.st-vfEmail-input {
+	float: left;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 20px;
+	border: 1px solid #dddddd;
+}
+.st-vfEmail-button {
+	float: left;
+    width: 70px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0px 0 0 5px;
+    text-align: center;
+    color: #3ba354;
+    cursor: pointer;
+    border: 1px solid #caeacf;
+    background: #dafcdf;
+}
+.st-vfEmail-button-disabled {
+	background: grey;
+}

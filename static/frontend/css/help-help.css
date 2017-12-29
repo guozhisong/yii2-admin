@@ -1,0 +1,45 @@
+
+/* 基本布局 */
+body {font-size:12px; margin: 0px auto;font-family: 宋体,arial;background: #fff;border:0px}
+body {margin:0px;border:0px;font-size:12px;background-color:#fff;} 
+
+#main {width: 960px;margin:0px auto}
+
+/* 基本样式 */
+.clear {CLEAR: both}
+i {display:inline-block;height:100%;vertical-align:middle}
+img {vertical-align:middle}
+li {list-style-type:none}
+a:link {color:#000;text-decoration:none}
+a:visited {color:#000;text-decoration:none}
+a:hover {color:#090; text-decoration:none; }
+.orange {color: #f60;} 
+.green {color: #090;} 
+.iarial{color: #f60;font-size:14px; font-weight:bold;font-family: arial} 
+a.orange:link { color: #666; text-decoration: none; } 
+a.orange:visited {color: #666; text-decoration: none; } 
+a.orange:hover {color: #f90; text-decoration: none; } 
+.stress{ color:#CC5200; font-weight:normal; }
+.adline {font-size: 12px;font-style: normal;text-decoration: underline;color: #f90;}
+a.adline:hover {color: #f90;text-decoration: underline;}
+a.adline:link {text-decoration: underline;color: #F00;}
+a.adline:visited {color: #F00;text-decoration: underline;}
+.f12_FFFF{font-size:12px;line-height:18px;color:#fff}
+.f12_FFFF a:link,.f12_FFFF a:visited{color:#fff;text-decoration:none}
+.f12_FFFF a:hover {color:#fff;text-decoration:underline}
+.pd1{padding-top:3px;}
+
+/*right*/
+#main_right{float:left;width:700px;margin:6px 0 0 20px;text-align: left}
+.rightweb{float:left;width:700px;height:36px;line-height:36px;border-bottom: 1px dashed #e2e2e2}
+.righttitle{float:left;width:700px;height:30px;line-height:30px;color:#f60;font-size:14px; font-weight:bold;}
+.rightcontent{float:left;width:700px;line-height:180%;color:#666;font-size:12px;}
+.rightcontent li{float:left;width:120px;line-height:180%;color:#666;font-size:12px;}
+
+.rightcontent1{float:left;width:700px;line-height:150%;color:#666;font-size:12px;}
+.rightcontent1 li{float:left;width:300px;color:#666;font-size:12px; line-height:35px; height:35px;}
+.rightcontent1 li.page{ height:80px; line-height:80px; width:600px; font:normal 14px/30px "宋体"; color:#666}
+.gengduo{ text-align:center; height:30px; }
+.rightlink{float:left;width:700px;height:30px;border-bottom: 3px solid #f60;font-size:14px;margin:10px 0 10px 0}
+.rightlinkon{float:left;width:125px;height:30px;BACKGROUND: url(img/this.gif) no-repeat;line-height:30px;color:#fff;margin-left:10px;text-align: center}
+.rightlinkoff{float:left;width:125px;height:30px;BACKGROUND: url(img/that.gif) no-repeat;line-height:30px;color:#039;margin-left:10px;text-align: center}

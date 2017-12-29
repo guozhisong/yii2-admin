@@ -1,0 +1,42 @@
+/*Data picker*/
+.PLG-dataPicker-active {
+	background-color: #3BA354;
+    color: #FFF !important;
+}
+
+.PLG-dataPicker-selectedIcon {
+	height: 28px;
+    line-height: 28px;
+    float: left;
+    margin-left: 10px;
+    color: #FFF;
+    padding: 0px 11px 0px 11px;
+    background-color: #3ba354;
+    font-size: 12px;
+    font-family: "宋体";
+    cursor: pointer;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+.PLG-dataPicker-selectedIcon-cancel {
+	display: inline-block;
+	*display:inline;
+	zoom:1;
+    background-image: url(/static/frontend/img/sousuo/quxiabe.jpg);
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+.PLG-dataPicker-item-disabled {
+	cursor: no-drop !important;
+    color: #666 !important;
+}
+.PLG-dataPicker-amount {
+	display: none;
+	position: relative;
+	line-height: 16px;
+    background-color: #3ba354;
+    color: #fff;
+    padding: 0 4px;
+}

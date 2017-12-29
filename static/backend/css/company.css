@@ -1,0 +1,7 @@
+.space{margin:20px;}
+	.showClass{position:absolute;background: white none repeat scroll 0 0;height: 410px;left: 44px;padding-top:30px;top: 280px;display:none; width: 1140px;}
+	#closeShowClass{float: right;margin-right: 45px;margin-top: -11px;cursor: pointer;}
+	#jobClassAction{width:200px;text-align: center;margin:0 auto;}
+	.showArea{position:absolute;background: white none repeat scroll 0 0;height: 390px;left: 44px;padding-top:30px;top: 240px;display:none; width: 1140px;}
+	#closeArea{float: right;margin-right: 45px;margin-top: -11px;cursor: pointer;}
+	#workPlaceAction{width:200px;text-align: center;margin:0 auto;}

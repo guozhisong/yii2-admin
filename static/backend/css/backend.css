@@ -1,0 +1,8 @@
+/*后台自定义样式*/
+
+.clear {height:0px; line-height:0px; font-size:0px; clear:both; overflow:hidden;}
+.container {width:100%; margin:0;}
+.setting-form {margin-top:20px;}
+
+.btn {padding: 4px 10px; font-size: 12px;}
+
